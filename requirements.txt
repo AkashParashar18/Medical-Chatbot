@@ -1,0 +1,8 @@
+ctransformers==0.2.27
+sentence-transformers==3.2.1
+pinecone-client
+langchain==0.3.4
+flask
+pypdf
+python-dotenv
+-e . # Assuming this is referring to a local package
