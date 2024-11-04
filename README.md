@@ -12,7 +12,7 @@ Project repo: https://github.com/
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n mchatbot python=3.8 -y
+conda create -n mchatbot python=3.12 -y
 ```
 
 ```bash
@@ -36,13 +36,13 @@ PINECONE_API_ENV = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ### Download the quantize model from the link provided in model folder & keep the model in the model directory:
 
 ```ini
-## Download the Llama 2 Model:
+## Download the Llama 3 Model:
 
-llama-2-7b-chat.ggmlv3.q4_0.bin
+Llama-3.2-90B-Vision-Instruct/model-00013-of-00037.safetensors
 
 
 ## From the following link:
-https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
+https://huggingface.co/meta-llama/Llama-3.2-90B-Vision-Instruct/tree/main
 ```
 
 ```bash
@@ -66,7 +66,7 @@ open up localhost:
 - Python
 - LangChain
 - Flask
-- Meta Llama2
+- Meta Llama3
 - Pinecone
 
 
